@@ -1,0 +1,76 @@
+.container {
+    background-color: #D4F4A9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 5vh 10vw;
+    padding: 5vw;
+    text-align: center;
+    height: 400px;
+}
+
+.container h2 {
+    color: #5D8F19;
+}
+.field {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f2ffe6;
+    border: 1px dashed #6E9A31;
+    width: 100%;
+    max-width: 50vw;
+    min-height: 60px;
+    padding: 22px;
+}
+
+.field .link {
+    font-family: Courier New, Courier, monospace;
+    color: #4e4e4e;
+    word-wrap: break-word;
+    margin: 0 auto;
+}
+
+.bing-icon::after {
+    content: "";
+    position: absolute;
+    background: url("../img/bing.svg") no-repeat top left;
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    top: 2px;
+    right: 2px;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #D4F4A9;
+    background-color: #83B83B;
+    border: none;
+    border-bottom: 2px solid #5D8F19;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    outline: none;
+    width: 20vw;
+    min-width: 150px;
+    height: 60px;
+}
+
+.btn:hover {
+    -webkit-transition: color 0.3s, background-color 1.5s, width 0.2s, height 0.2s, border-bottom-color 1.5s;
+    transition: color 0.3s, background-color 1.5s, width 0.2s, height 0.2s, border-bottom-color 1.5s;
+    width: 21vw;
+    height: 62px;
+    background-color: #7bcbea;
+    border-bottom-color: #264d73;
+    color: #fff;
+}
+
+.btn:active {
+    color: #9FCB64;
+    background-color: #6E9A31;
+    border-color: #6E9A31;
+}
